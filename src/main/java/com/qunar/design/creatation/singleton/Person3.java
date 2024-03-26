@@ -7,12 +7,10 @@ package com.qunar.design.creatation.singleton;
  * 它必须自行向整个系统提供这个实例；（对外提供实例化方法）
  */
 public class Person3 {
-    private String name;
-
-    private Integer age;
-
     // 懒汉
     private volatile static Person3 instance;
+    private String name;
+    private Integer age;
     // 饿汉
     //private static final Person instance = new Person();
 

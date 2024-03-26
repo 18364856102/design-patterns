@@ -9,14 +9,13 @@ package com.qunar.design.structural.adapter;
  */
 public class JPMovieAdapter2 implements Player {
     /**
-     * 被适配对象
-     */
-    private Player player;
-
-    /**
      * 适配者(转换接口)
      */
     private static final Translator translator = new Zh2JpTranslator();
+    /**
+     * 被适配对象
+     */
+    private Player player;
 
 
     public JPMovieAdapter2(Player player) {

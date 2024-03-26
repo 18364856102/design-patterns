@@ -6,5 +6,5 @@ package com.qunar.switchAndIfElse;
  * @description ：
  * @version: 1.0
  */
-public class Cat extends Animal{
+public class Cat extends Animal {
 }

@@ -1,4 +1,5 @@
-package com.qunar.design.structural.decorator;
+package com.qunar.design.structural.proxy.cglib;
+
 
 /**
  * @author ：qixue.xue
@@ -6,9 +7,8 @@ package com.qunar.design.structural.decorator;
  * @description ：
  * @version: 1.0
  */
-public class XueTikTok implements ManTikTok {
-    @Override
-    public void tiktok() {
+public class XueTikTok {
+    public void tiktokHaha() {
         System.out.println("薛薛薛。。。tiktok");
     }
 }
