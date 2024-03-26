@@ -1,5 +1,4 @@
-package com.qunar.design.structural.proxy.statics;
-
+package com.qunar.design.structural.proxy.dynamic2;
 
 /**
  * @author ：qixue.xue
